@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import React, {useState} from 'react';
 import {AiOutlineMenu} from 'react-icons/ai';
@@ -9,14 +10,14 @@ const Navbar = () => {
   return (
     <div className='fixed left-0 top-0 w-full z-10 ease-in duration-500 shadow-sm bg-slate-200'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
-            <Link href='/'></Link>
+          
             <div className='flex gap-1'>
             <button className='rounded-full  bg-emerald-900 py-4 px-5'></button>
-            <h1 className='font-bold text-4xl'>Buildit</h1>
+            <h1 className='font-bold text-4xl'><Link href='/'>Buildit</Link></h1>
             </div>
             <ul className='hidden sm:flex'>
                 <li className='p-4'>
-                    <Link href='/about.js'>About</Link>
+                    <Link href='about'>About</Link>
                 </li>
                 <li className='p-4'>
                     <Link href='/'>Services</Link>
