@@ -1,6 +1,6 @@
 
-import IgImg1 from '../public/face.JPG'
-import IgImg2 from '../public/insta.JPG'
+import IgImg1 from '../public/face.jpg'
+import IgImg2 from '../public/insta.jpg'
 import React from 'react'
 import FooterImg from './FooterImg'
 

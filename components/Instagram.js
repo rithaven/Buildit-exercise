@@ -10,17 +10,17 @@ import InstagramImg from './InstagramImg';
 const Instagram = () => {
   return (
     <div className='bg-gray-100 w-full'>
-        <div className='max-w-[1240px] mx-auto text-center py-24'>
-        <p className='text-cyan-500'>Socials</p>
-        <p className='text-2xl font-bold p-2'>On Instagram</p>
-        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4'>
-            <InstagramImg socialImg={IgImg1}/>
-            <InstagramImg socialImg={IgImg2}/>
-            <InstagramImg socialImg={IgImg3}/>
-            <InstagramImg socialImg={IgImg4}/>
-            <InstagramImg socialImg={IgImg5}/>
-            <InstagramImg socialImg={IgImg6}/>
-        </div>
+        <div className='max-w-[1000px] mx-auto text-center py-24'>
+          <p className='text-cyan-500'>Socials</p>
+          <p className='text-2xl font-bold p-2'>On Instagram</p>
+          <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-2 p-4'>
+              <InstagramImg socialImg={IgImg1}/>
+              <InstagramImg socialImg={IgImg2}/>
+              <InstagramImg socialImg={IgImg3}/>
+              <InstagramImg socialImg={IgImg4}/>
+              <InstagramImg socialImg={IgImg5}/>
+              <InstagramImg socialImg={IgImg6}/>
+          </div>
         </div>
     </div>
   )

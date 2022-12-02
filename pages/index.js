@@ -7,7 +7,7 @@ import Projects from '../components/Projects';
 import Partners from '../components/Partners';
 import Featured from '../components/Featured';
 import Instagram from '../components/Instagram';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 import Contact from '../components/Contact';
 
 export default function Home() {

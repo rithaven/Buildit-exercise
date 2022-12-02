@@ -1,6 +1,6 @@
 import React from 'react';
-import IgImg1 from '../public/call.JPG'
-import IgImg2 from '../public/message.JPG'
+import IgImg1 from '../public/call.jpg'
+import IgImg2 from '../public/message.jpg'
 import ContactImg from './ContactImg'
 
 const Contact = () => {
