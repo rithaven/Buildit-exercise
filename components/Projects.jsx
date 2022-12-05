@@ -1,7 +1,7 @@
 import React from 'react'
-import IgImg2 from '../public/icon1.jpg';
-import IgImg3 from '../public/icon2.jpg';
-import IgImg4 from '../public/icon3.png';
+import IgImg2 from '../public/iconOne.jpg';
+import IgImg3 from '../public/icontwo.jpg';
+import IgImg4 from '../public/Iconthree.png';
 import Projecticons from './Projecticons';
 
 const Projects = () => {
