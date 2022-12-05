@@ -18,7 +18,7 @@ const Hero = ({heading,message}) => {
                         <button className='bg-slate-300 rounded-lg  py-3 px-5' >About the company</button>
                     </div>
                 </div>
-                <div className='w-[40%] mb-10 flex-row mt-36 sm:w-[40%] '>
+                <div className='w-2/5 mb-10 flex-row mt-36 sm:w-2/5 '>
                     <Galleryimg socialImg={IgImg1} />
                 </div>
             </div>
