@@ -1,5 +1,5 @@
 import React from 'react'
-import IgImg4 from '../public/line.png';
+import IgImg4 from '../public/hr.png';
 import IgImg5 from '../public/about.png';
 import IgImg6 from '../public/n.png';
 import IgImg7 from '../public/round.png';
