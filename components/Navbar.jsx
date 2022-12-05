@@ -3,14 +3,10 @@ import Link from 'next/link';
 import React, {useState} from 'react';
 import {AiOutlineMenu} from 'react-icons/ai';
 
-
-
-
 const Navbar = () => {
   return (
     <div className='fixed left-0 top-0 w-full z-10 ease-in duration-500 shadow-sm bg-slate-200'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
-          
             <div className='flex gap-1'>
             <button className='rounded-full  bg-emerald-900 py-4 px-5'></button>
             <h1 className='font-bold text-4xl'><Link href='/'>Buildit</Link></h1>
@@ -29,21 +25,16 @@ const Navbar = () => {
                     <Link href='/'>Contact</Link>
                 </li>
             </ul>
-
             {/* Mobile Button */}
             <div className='flex justify-between gap-28 sm:hidden z-10'>
                 <div className='flex gap-1 sm:flex float-left'>
                 <button className='rounded-full bg-emerald-900 py-3 px-5 sm:rounded-full'></button>
                 <h1 className='font-bold text-4xl top-0'>Buildit</h1>
-            
                </div>
-
                 <AiOutlineMenu size={20} />
             </div>
             {/* Mobile Menu */}
-
-            <div className='sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-between items-center w-full h-screen bg-slate-300 text-center ease-in duration-300'>
-            
+            <div className='sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-between items-center w-full h-screen bg-slate-300 text-center ease-in duration-300'>           
                 <ul>
                     <li className='p-4 text-2xl hover:text-gray-500'>
                         <Link href='/about.js'>About</Link>
@@ -64,5 +55,4 @@ const Navbar = () => {
     </div>
   )
 }
-
 export default Navbar

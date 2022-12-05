@@ -14,13 +14,11 @@ const Projects = () => {
                <h1 className='text-xl font-bold p-4'>Featured Listing</h1>
                <p>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit. </p>
             </div>
-
             <div>
                <Projecticons socialImg={IgImg3} />
                <h1 className='text-xl font-bold p-4'>Available Properties</h1>
                <p>Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.  </p>
             </div>
-
             <div>
                <Projecticons socialImg={IgImg4} />
                <h1 className='text-xl font-bold p-4'>In the News</h1>
@@ -30,5 +28,4 @@ const Projects = () => {
     </div>
   )
 }
-
 export default Projects

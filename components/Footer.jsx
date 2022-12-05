@@ -13,7 +13,6 @@ const Footer = () => {
                 <p>Development company, 2022</p>
                 <p>Site design – ⏰ Alarm</p>
             </div> 
-
             <div className='grid grid-rows-5'>
                 <p>Service1</p>
                 <p>Service2</p>
@@ -24,13 +23,11 @@ const Footer = () => {
                     <FooterImg socialImg={IgImg2}/>
                 </div>
             </div> 
-
             <div className='grid grid-rows-4'>
                 <p>About us</p>
                 <p>Services</p>
                 <p>Projects</p>
                 <p>Contact</p>
-              
             </div> 
             <div className='grid grid-rows-6'>
                 <p>Get in touch</p>
@@ -39,11 +36,8 @@ const Footer = () => {
                 <p>708-790-0000</p>
                 <p>sales@buildit.site</p>
                 <p>Contact</p>
-              
             </div>
         </div>
-        
-
     </div>
   )
 }

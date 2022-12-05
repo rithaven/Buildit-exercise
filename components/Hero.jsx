@@ -23,7 +23,6 @@ const Hero = ({heading,message}) => {
                 </div>
             </div>
         </div>
-
     </div>
   
   )
